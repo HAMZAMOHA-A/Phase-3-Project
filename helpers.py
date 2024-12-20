@@ -1,5 +1,5 @@
 # lib/helpers.py
-from db.models import session, Task
+from models import session, Task
 
 def add_task(name):
     """Add a new task to the database."""
